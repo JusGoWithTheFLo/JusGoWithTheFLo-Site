@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JusGoWithTheFLo</title>
+  </head>
+
+  <body>
+    <h2><strong><center>JusGoWithTheFLo</center></strong></h2>
+    
+<!-- INFO TABLE -->
+      <center><table>
+  <!-- ABOUT ME -->
+      <td>
+      <fieldset>
+      <h3><strong>About Me</strong></h3>
+      <p>Aloha! My name is FLo and I am a full-time dad and hubby, part-time gamer. Born and raised in Hawai’i. I joined the US Army in 2009, and had the <em>pleasure</em> of vacationing in the sandstorms of Iraq during <strong>Operation New Dawn</strong>. I have a beautiful wife named Alyy who I occasionally game with, and a son named Keahe who is a future gaming nerd. I started streaming in 2019 with a MacBookPro and my wife’s PS4. Since then I’ve been upgrading my setup little by little to create better and better content. My schedule is a bit crazy at the moment, but I do keep up with the communities that I’m in. <strong>#StrengthThroughSupport</strong></p>
+      </fieldset>
+      </td>
+  <!-- JOIN DA OHANA -->
+      <td>
+      <fieldset>
+      <h3><strong>Join Da Ohana</strong></h3>
+      <p>If you want to support the channel, just being here and chatting is all you need to do! If you want to help more, subscribing helps the channel as well as gets you some stuff. If you subscribe, you’ll gain access to the emotes, ad-free viewing, and a cool badge. The longer you’re subscribed for, the cooler your badge gets. Currently, all subscription costs go back into the community, for example higher quality equipment for a better quality stream, community tournaments, or having special streams where we all play games together. If you can’t subscribe, just being in chat and following the channel means the world to me <3</p>
+      </fieldset>
+      </td>
+  <!-- DA QUESTIONS -->
+      <td>
+      <fieldset>
+      <h3><strong>Da Questions</strong></h3>
+      <p>
+        <ul><li><strong>When did you start streaming?</strong><br></li>
+        I started streaming in 2020 in the middle of my living room with my wife's PS4, running OBS on my MacBookPro.<br><br>
+        <li><strong>When did you hit affiliate?</strong></li>
+        I hit affiliate in March 2021 while staying in a Hilton Doubletree Hotel.<br><br>
+        <li><strong>What games do you play?</strong></li>
+        I'm open to recommendations and suggestions.<br>
+        <ul><li>Call of Duty</li>
+          <li>Phasmophobia</li>
+          <li>Propnight</li>
+          <li>ev.io</li>
+          <li>One Piece World Seeker</li>
+        </ul>
+        <br><br>
+        <li><strong>What's on your Steam Wishlist?</strong></li>
+        <ul><li>Fable Anniversary</li>
+          <li>Bigfoot</li>
+          <li>NFS Most Wanted</li>
+          <li>The Break-In</li>
+          <li>Sims 4</li>
+        </ul>
+        </ul>
+      </p>
+      </fieldset>
+      </td>
+    </table></center>
+  
+<!--LEAVE ME A NOTE -->
+  <form action="">
+    <!-- TODO: add link to form submission -->
+    <legend>Leave Me A Note <3</legend>
+      <fieldset>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="note" placeholder="Note" required>
+        <label><input type="radio" id="like" value="life" name="like-dislike"> Like</label>
+        <label><input type="radio" id="dislike" value="dislike" name="like-dislike"> Dislike</label>
+        <button type="submit">Submit</button>
+      </fieldset>
+  </form>
+<!-- FOOTER -->
+<center>
+  <h3>Socials</h3>
+  <!-- SOCIALS -->
+  <p><a href="https://www.twitch.tv/jusgowiththeflo">Twitch</a>&nbsp&nbsp<a href="https://www.youtube.com/channel/UCNeu8fXi4t8C8wpvkVcvBdw">YouTube</a>&nbsp&nbsp<a href="https://www.facebook.com/JusGoWithTheFLo/?ref=pages_you_manage">Facebook</a></p>
+  
+  </body>
+</html

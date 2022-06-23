@@ -1,0 +1,66 @@
+html {
+  padding:20px;
+  height: 100%;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: block;
+}
+
+nav {
+  height: 50px;
+  width:100%;
+  min-width:300px;
+  max-width:100%;
+  margin:10px auto auto 5px;
+  padding:auto;
+  background-color: rgba(240,240,240,0.25);
+  position: fixed;
+  display: block;
+}
+
+.navbar-logo {
+  border-radius: 50%;
+  float:left;
+  margin-top:-20px;
+  margin-left:-10px;
+  margin-right:5px;
+}
+
+navbar {
+  width: 100%;
+}
+
+
+.nav-text {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  float:left;
+  display:block;
+}
+
+.sitecontent {
+  flext: 1;
+}
+
+.video {
+  background-color: white;
+  width:80%;
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+}

@@ -1,5 +1,252 @@
-<style>
-  table {
-    align: center;
-    }
-</style>
+html {
+  padding:20px;
+}
+
+h1, h2, p, table, label, .leavemeanote {
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+hr {
+  height:2px;
+  width:80%;
+  background-color: orange;
+  border-color: orange;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+body {
+  background-color: black;
+  background-image: url(https://static.thousandwonders.net/Honolulu.original.13773.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 20px;
+  margin:auto;
+}
+
+.info {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info h3 {
+  font-family: Impact, serif;
+}
+
+.aboutme, .joindaohana, .daquestions {
+  background-color: black;
+}
+
+.moreinfo {
+  display:inline-block;
+  width: 30%;
+}
+
+
+/*STEAM INFO*/
+.imgsteam {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height:50px;
+}
+
+.steam {
+  width: 80%;
+  min-width: 300px;
+  max-width: 500px;
+  background-color: black;
+/*without float---  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;*/
+  margin:5px;
+  padding: 20px;
+  float:left;
+}
+
+.steam h2{
+  text-align: center;
+  font-family: Impact;
+  margin-top: 0;
+  margin-bottom:15px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size:18px;
+}
+
+.game, .wishlist {
+  text-align: left;
+  width: 75%;
+}
+
+.hours, .price {
+  text-align: right;
+  width: 25%;
+}
+
+/*HAWAIIAN COLORS*/
+.islands {
+  padding-top:3px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size:18px;
+}
+
+.marker:hover {
+  opacity:0.5;
+}
+
+.hawaiiancolors-h2 {
+  text-align:center;
+}
+
+.container {
+  width: 80%;
+  min-width: 300px;
+  max-width: 500px;
+  background-color:rgba(0,0,0,0.9);
+  margin: 5px;
+  padding:20px;
+  float:left;
+}
+
+.marker {
+  width:200px;
+  height:25px;
+  margin:10px auto;
+  /*box-shadow:0px 5px 5px orange;  ----COOL BOX SHADOW (offsetX offsetY blurRadius spreadRadius color)*/
+}
+
+.hawaii {
+  /* background-color:rgb(255,0,0); -----red or #FF0000 (RRGGBBAA <AA=alpha channel>) or rgba(255,0,0,opacity)*/
+  background: linear-gradient(90deg, rgb(0,0,0), rgb(255,0,0), rgb(0,0,0));
+}
+
+.maui {
+  /* background-color:rgb(255,0,255); ---pink*/
+  background: linear-gradient(45deg, rgb(0,0,0), rgb(255,0,255), black);
+}
+
+.oahu {
+  /* background-color:rgb(255,255,0); yellow*/
+  background: linear-gradient(127deg, black, rgb(255,255,0), black);
+  color:black;
+}
+
+.kauai {
+  /* background-color:rgb(127,0,255); ---purple*/
+  background: linear-gradient(0deg, black, rgb(127,0,255), black);
+}
+
+.molokai {
+  /* background-color:rgb(0,127,0); ---green or #00FF00*/
+  background: linear-gradient(180deg, black, rgb(0,127,0), rgb(0,127,0), black);
+}
+
+.lanai {
+  /* background-color:rgb(255,127,0); ---orange*/
+  background: linear-gradient(10deg, black, rgb(255,127,0), black);
+}
+
+.niihau {
+  /*background-color:white; */
+  background: linear-gradient(20deg, black, white, white, black);
+  color:black;
+}
+
+.kahoolawe {
+  /*background-color:gray;*/
+  background: linear-gradient(30deg, black, gray, gray, gray, black);
+}
+
+.lasvegas {
+  /*background-color:rgb(0,0,255); ---blue or #0000FF or hsl(240,100%,50%, 0,8) <hue,saturation,lightness,alphachannel>*/
+  background: linear-gradient(90deg, black 1%, blue 6%, blue, white, blue, blue 94%, black 99%);
+}
+
+
+/*LEAVE ME A NOTE BOX*/
+.leavemeanote {
+  width: 20%;
+  min-width: 300px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-top: auto;
+  padding: 20px;
+  text-align:center;
+}
+
+.leavemeanote h3 {
+  font-family: Impact, serif;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.leavemeanotefieldset {
+  background-color:black;
+}
+
+.leavemeanotename {
+  width:100%;
+}
+
+.leavemeanotenote {
+  width:100%;
+  height:100px;
+  text-align:bottom;
+}
+
+.socials {
+  color:white;
+  font-style: italic;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size:14px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: orange;
+}

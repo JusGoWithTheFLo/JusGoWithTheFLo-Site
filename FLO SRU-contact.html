@@ -21,14 +21,39 @@
           <li><a href="#">References</a></li>
         </ul>
       </nav>
-      <a class="cta" href="#"><button class="button-contact">Contact</button></a>
+      <a class="cta" href="#"><button>Contact</button></a>
     </header>
     
 
     <main>
       <div class="home1">
+        <h1>Contact Form</h1>
+        <p>Please fill out this form with the required information</p>
+        
       </div>
       <div class="home2">
+        <form action="#">
+          <fieldset>
+            <label>First Name: <input type="text" name="first-name" required /></label>
+            <label>Last Name: <input type="text" name="last-name" required /></label>
+            <label>Email: <input type="email" name="email" required /></label>
+          </fieldset>
+          <fieldset>
+            <label>Attach a file: <input class="inline" type="file" name="file" /></label>
+            <label>How did you hear about me?
+              <select name="referrer">
+                <option value="">(select one)</option>
+                <option value="1">LinkedIn</option>
+                <option value="2">YouTube</option>
+                <option value="3">Other</option>
+              </select>
+            </label>
+            <label>Please specify:
+              <textarea name="referrer-specify" rows="3" cols="30" placeholder="I heard about you from..."></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Submit" class="contact-submit" />
+        </form>
       </div>
       <div class="home3">
       </div>

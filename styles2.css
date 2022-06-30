@@ -86,6 +86,7 @@ header button:hover {
   max-width: 500px;
   min-width: 300px;
   width: 60vw;
+  padding-bottom: 2em;
 }
 
 .home2 fieldset {
@@ -110,14 +111,7 @@ header button:hover {
 .home2 select {
   width: 100%;
   margin: 10px 0 0 0;
-}
-
-.home2 .contact-submit {
-  margin: 0.5rem auto;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #ffffffd0;
+  min-height: 2em;
 }
 
 .home2 .contact-type {
@@ -127,8 +121,42 @@ header button:hover {
 
 .home2 .inline {
   width: unset;
-  display: inline;
-  margin-right: 0.5em;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.home2 input,
+.home2 textarea {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+}
+
+.home2 input[type="file"] {
+  background-color: #000000;
+  border: 0px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.home2 input[type="submit"] {
+  display: block;
+  font-size: 1.1rem;
+  height: 2em;
+  width: 60%;
+  mind-width: 300px;
+  margin: 1em auto 1em auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #bbbbbbc0;
+  border-color: #ffffff;
+}
+
+.home2 input[type="submit"]:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .home3 {

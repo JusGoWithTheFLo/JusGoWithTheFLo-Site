@@ -64,15 +64,21 @@ header button:hover {
   background-color: #ffffff;
   width: 100%;
   margin: 0;
-  padding: 1px;
+  padding: 0px;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
-.home1 h1, 
+.home1 h1 {
+  margin: auto;
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
 .home1 p {
-  margin: 1em auto;
+  margin: auto;
+  padding: 0 0 10px 0;
   text-align: center;
 }
 
@@ -83,7 +89,7 @@ header button:hover {
   background-color: #000000;
   width: 100%;
   margin: 0;
-  padding: 10px;
+  padding: 0px;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -174,15 +180,17 @@ header button:hover {
   background-color: #ffffff;
   width: 100%;
   margin: 0;
-  padding: 10px;
+  padding: 0px;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
 /* -----home3 end */
-/* -----Format */
+/* -----Footer */
 
 footer {
   text-align: center;
 }
+
+/* -----Footer end */

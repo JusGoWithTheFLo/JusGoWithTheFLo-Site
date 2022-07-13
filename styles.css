@@ -37,7 +37,7 @@ body {
   background-size: cover;
   font-family: sans-serif;
   padding: 20px;
-  margin:auto;
+  margin: auto;
 }
 
 /*
@@ -289,14 +289,15 @@ body {
 
 
 /*PHOTO GALLERY*/
+
 .photogallery {
   box-sizing: border-box;
   margin: 0;
   font-family: Arial;
-  background: #EBE7E7;
 }
 
 .gallerytitle {
+  display: block;
   text-align: center;
   padding: 32px;
   background: #E0DDDD;
@@ -309,6 +310,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background: #EBE7E7;
 }
 
 #gallery img {
@@ -324,6 +326,12 @@ body {
 @media (max-width: 800px) {
   #gallery img {
     width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  #gallery img {
+    width: 100%;
   }
 }
 

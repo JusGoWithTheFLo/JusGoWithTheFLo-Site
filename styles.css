@@ -290,9 +290,13 @@ body {
 
 /*PHOTO GALLERY*/
 
-.photogallery {
+.photogallery * {
   box-sizing: border-box;
-  margin: 0;
+}
+
+.photogallery {
+  display: block;
+  margin: auto;
   font-family: Arial;
 }
 
@@ -333,6 +337,70 @@ body {
   #gallery img {
     width: 100%;
   }
+}
+
+
+/* NUTRITION LABEL */
+.nutritionlabel {
+  display: block;
+  border: 2px solid black;
+  width: 370px;
+  margin: 20px auto;
+  padding: 1px;
+}
+
+.nutritionlabel * {
+  box-sizing: border-box;
+}
+
+.nutritionheader h2 {
+  margin: -4px 0;
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+.nutritionheader p {
+  margin: 2px;
+  padding: 0 5px;
+}
+
+.calories-info p, .calories-info h2 {
+  margin: 0px;
+  padding: 0 5px;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 0 2px;
+  clear: right;
+}
+
+.no-divider {
+  border-bottom: 0;
+}
+
+.indent {
+  margin-left: 2rem;
+}
+
+.lg {
+  border-bottom: 10px solid black;
+}
+
+.md {
+  border-bottom: 5px solid black;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.right {
+  float: right;
+}
+
+.note {
+  font-size: 0.8rem;
 }
 
 /* FOOTER */

@@ -9,7 +9,7 @@
 
   <body>
     <header>
-      <img class="navbar-logo" src="https://yt3.ggpht.com/ReDiLfzN4rf_SmGCUaHLgDeTXeUmXoi1ltnWUUGHOvT33lDvVGeZE00uQBA2tZTZq-AroPCPIg=s88-c-k-c0x00ffffff-no-rj" alt="flo logo">
+      <img id="logo" src="https://yt3.ggpht.com/ReDiLfzN4rf_SmGCUaHLgDeTXeUmXoi1ltnWUUGHOvT33lDvVGeZE00uQBA2tZTZq-AroPCPIg=s88-c-k-c0x00ffffff-no-rj" alt="flo logo">
       <nav>
         <ul class="navbar">
           <li><a href="#">Summary</a></li>
@@ -21,7 +21,7 @@
           <li><a href="#">References</a></li>
         </ul>
       </nav>
-      <a class="cta" href="#"><button>Contact</button></a>
+      <a class="cta" href="#"><button><strong>Contact</strong></button></a>
     </header>
     
 
@@ -37,6 +37,7 @@
             <label>First Name: <input type="text" name="first-name" required /></label>
             <label>Last Name: <input type="text" name="last-name" required /></label>
             <label>Email: <input type="email" name="email" required /></label>
+            <label>D.O.B.<span class="sr-only">(Date of Birth)</span><input type="date" name="birth-date" /></label>
             <label class="contact-type"><input type="radio" name="contact-type" class="inline" /> Business</label>
             <label class="contact-type"><input type="radio" name="contact-type" class="inline" /> Personal</label>
           </fieldset>

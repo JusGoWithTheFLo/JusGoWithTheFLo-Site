@@ -16,13 +16,15 @@ header {
 
 /* -----Navbar */
 
-.navbar-logo {
+#logo {
+  width: max(100px, 5vw);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .navbar {
   list-style: none;
+  font-size: min(5vw, 1em);
 }
 
 .navbar li{

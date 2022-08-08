@@ -323,6 +323,7 @@ body {
   object-fit: cover;
   object-position: center;
   margin-top: 8px;
+  margin-bottom: 8px;
   padding: 0 4px;
   border-radius: 10px;
 }
@@ -401,6 +402,182 @@ body {
 
 .note {
   font-size: 0.8rem;
+}
+
+
+/* PAINTING */
+#painting-body {
+  width: 100%;
+  height: 600px;
+  background-color: GhostWhite;
+  z-index: 1;
+  position: relative;
+}
+
+#black-wall {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: relative;
+}
+
+#white-wall {
+  width: 100%;
+  height: 40%;
+  background-color: blue;
+  z-index: 2;
+}
+
+.characters {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+#niho-mano {
+  width: 540px;
+  height: 120px;
+  background-color: transparent;
+  top: 30%;
+  left: 30%;
+  position: absolute;
+}
+
+.white-triangle:first-of-type {
+  margin-left: 21px;
+}
+
+.white-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 80px 50px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #111111;
+  display: inline;
+}
+
+#weave {
+  width: 540px;
+  height: 120px;
+  background-color: transparent;
+  top: 10%;
+  left: 15%;
+  position: absolute;
+  z-index: -1;
+}
+
+.line-up:first-of-type {
+  margin: 0 !important;
+}
+
+.line-up {
+  width: 90px;
+  height: 120px;
+  background: linear-gradient(135deg, black, rgb(165, 81, 42), black, rgb(165, 81, 42), black, rgb(165, 81, 42), black);
+  display: inline-block;
+  margin-left: -4.5px
+}
+
+.line-down {
+  width: 90px;
+  height: 120px;
+  background: linear-gradient(45deg, black, rgb(165, 81, 42), black, rgb(165, 81, 42), black, rgb(165, 81, 42), black);
+  display: inline-block;
+  margin-left: -4.5px;
+}
+
+#honu {
+  width: 500px;
+  height: 500px;
+  background-color: transparent;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: -1;
+}
+
+.honu-head {
+  width: 50px;
+  height: 120px;
+  background-color: transparent;
+  border: 10px solid rgba(255, 255, 47, 0.873);
+  border-radius: 50% 50% 100% 100%;
+  position: absolute;
+  top: 13%;
+  left: 24.5%;
+  transform: rotate(135deg);
+  z-index: -1;
+}
+
+.honu-shell {
+  width: 150px;
+  height: 200px;
+  background-color: black;
+  border: 30px double rgba(255, 255, 47, 0.873);
+  border-radius: 50% 50% 40% 40%;
+  position: absolute;
+  top: 20%;
+  left: 29%;
+  transform: rotate(135deg);
+  z-index: 3;
+}
+
+.honu-arm-left {
+  width: 50px;
+  height: 150px;
+  background-color: transparent;
+  border: 10px solid rgba(255, 255, 47, 0.873);
+  border-radius: 50% 10% 20% 100%;
+  position: absolute;
+  top: 32%;
+  left: 13%;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+
+.honu-arm-right {
+  width: 50px;
+  height: 150px;
+  background-color: transparent;
+  border: 10px solid rgba(255, 255, 47, 0.873);
+  border-radius: 50% 10% 20% 100%;
+  position: absolute;
+  top: -1%;
+  left: 47%;
+  transform: rotate(60deg) scale(1, -1);
+  z-index: -1;
+}
+
+.honu-foot-left {
+  width: 50px;
+  height: 60px;
+  background-color: transparent;
+  border: 10px solid rgba(255, 255, 47, 0.873);
+  border-radius: 10% 40% 10% 40%;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  z-index: -1;
+}
+
+.honu-foot-right {
+  width: 50px;
+  height: 60px;
+  background-color: transparent;
+  border: 10px solid rgba(255, 255, 47, 0.873);
+  border-radius: 10% 40% 10% 40%;
+  position: absolute;
+  top: 39%;
+  left: 67%;
+  z-index: -1;
 }
 
 /* FOOTER */

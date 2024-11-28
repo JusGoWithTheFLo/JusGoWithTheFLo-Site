@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gradebook App</title>
+
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <h1>GRADEBOOK APP</h1>
+            </section>
+            <section>
+                <table>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Score</th>
+                        <th>Grade</th>
+                        <th>Message</th>
+                    </tr>
+                    <tr>
+                        <td id="name">A</td>
+                        <td id="score">98<input type=text id="score-input"></td>
+                        <td id="grade"></td>
+                        <td id="message"></td>
+                    </tr>
+                </table>
+                <button onclick="getGrade();">PUSH ME</button>
+            </section>
+            <section>
+                <p id="announcement"></p>
+            </section>
+        </main>
+    </body>
+
+    <footer>
+
+    </footer>
+    <script>
+        var studentName = document.getElementById("name").innerHTML;
+        //var studentScore = document.getElementById("score").innerHTML;
+        var studentScore = document.getElementById("score-input").value;
+        var studentGrade = document.getElementById("grade").innerHTML;
+        var studentMessage = document.getElementById("message").innerHTML;
+        var announcement = document.getElementById("announcement").innerHTML;
+        var totalScore = 0;
+        var scores = [92, 88, 12, 77, 57, 100, 67, 38, 97, 89];
+
+        //------------------------------
+        //-----GETS AVERAGE FROM SCORES
+        //------------------------------
+        function getAverage(scores){
+            let sum = 0;
+            for(i = 0; i < scores.length; i++){
+                sum += scores[i];
+            }
+            let average = sum / scores.length;
+            return average;
+        }
+
+        //------------------------------
+        //-----GETS GRADE FROM STUDENT SCORE
+        //------------------------------
+        function getGrade(studentScore){
+            if(studentScore <=59){
+                return "F";
+            } else if(60 <= studentScore && studentScore <= 69){
+                return "D";
+            }else if(70 <= studentScore && studentScore <= 79){
+                return "C";
+            }else if(80 <= studentScore && studentScore <= 89){
+                return "B";
+            }else if(90 <= studentScore && studentScore <= 99){
+                return "A";
+            }else if(studentScore >= 100){
+                return "A+";
+            }
+        }
+
+        //------------------------------
+        //-----CHECK IF STUDENT HAS PASSING GRADE (ABOVE "F")
+        //------------------------------
+        function hasPassingGrade(studentScore){
+            return getGrade(studentScore) !== "F";
+        }
+
+        //------------------------------
+        //-----POSTS ANNOUNCEMENT
+        //------------------------------
+        function announcement(totalScore, studentScore){
+            let passFail = "";
+            if(hasPassingGrade(studentScore)){
+                passFail = "passed";
+            } else {
+                passFail = "failed";
+            }
+            return "Class average: " + getAverage(studentScore) + ". Your Grade: " + getGrade(studentScore) + ". You " + passFail + " this course!";
+        }
+        
+
+        
+        //document.getElementById("grade").innerHTML = getGrade(studentScore); //displays student grade
+        //document.getElementById("announcement").innerHTML = announcement(500, studentScore);  //displays something in announcement section below button
+    </script>
+</html>

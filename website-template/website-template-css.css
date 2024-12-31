@@ -1,0 +1,83 @@
+*{
+    --black1: rgb(20, 20, 20);
+    --black2: rgb(40, 40, 40);
+    --black3: rgb(60, 60, 60);
+    --white0: rgb(250, 250, 250);
+    --white1: rgb(240, 240, 240);
+    --white2: rgb(220, 220, 220);
+    --white3: rgb(200, 200, 200);
+    --font-family1: Arial;
+}
+
+body,
+h1,
+h2,
+p,
+.header,
+.sidebar{
+    color: var(--black2);
+    font-family: var(--font-family1);
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: var(--white0);
+}
+
+.bar-toggle{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bar-toggle:hover{
+    background-color: var(--white2);
+    cursor: pointer;
+}
+
+.sidebar{
+    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    display: none;
+    flex-direction: column;
+    height: 100dvh;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100dvw;
+    z-index: 2;
+}
+
+.sidebar a{
+    color: var(--black2);
+    font-size: 40px;
+}
+
+.sidebar a:hover{
+    color: var(--white1);
+}
+
+.sidebar .bar-toggle{
+    color: var(--white1);
+}
+
+.sidebar .bar-toggle:hover{
+    color: var(--black2);
+}
+
+.sidebar div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.sidebar a{
+    text-decoration: none;
+    padding: 10px;
+}

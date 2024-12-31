@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="website-template-css.css" rel="stylesheet" type="text/css"> <!--link to stylesheet-->
+        <title></title>
+    </head>
+    
+    <body>
+        <!-- Sidebar on click -->
+        <nav class="sidebar">
+            <span class="bar-toggle" onclick="sidebar_close()">X</span>
+            <div>
+                <a href="#">Section1</a>
+                <a href="#">Section2</a>
+                <a href="#">Section3</a>
+                <a href="#">Section4</a>
+            </div>
+        </nav>
+
+        <!-- !PAGE CONTENT! -->
+        <main class="content">
+        <!-- Header -->
+        <div class="header">
+            <span class="bar-toggle" onclick="sidebar_open()">O</span>
+        </div>
+        
+        <!-- Body -->
+        <div class="body">
+        </div>
+        
+        <!-- End Page Content -->
+        </main>
+
+        <!-- Footer -->
+        <footer>
+        </footer>
+
+        <script src="./website-template-js.js"></script>
+    </body>
+</html>

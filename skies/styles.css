@@ -1,0 +1,97 @@
+container{
+    display: grid;
+    height: 100dvh;
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-rows: min-content;*/
+    grid-template-rows: .2fr .5fr 3fr .5fr 1fr 1fr 1fr .2fr;
+    grid-template-areas:
+        "nav nav"
+        "enemy-resource-bar enemy-resource-bar"
+        "game-area game-area"
+        "player-status-bar player-status-bar"
+        "content1 content2"
+        "content3 content4"
+        "content5 content6"
+        "footer footer";
+}
+
+nav{
+    background-color: gray;
+    grid-area: nav;
+}
+
+#enemy-resource-bar{
+    background-color: red;
+    grid-area: enemy-resource-bar;
+}
+
+#game-area{
+    background-color: green;
+    grid-area: game-area;
+}
+
+#player-status-bar{
+    background-color: blue;
+    grid-area: player-status-bar;
+}
+
+#content1{
+    background-color: lightblue;
+    grid-area: content1;
+}
+
+#content2{
+    background-color: lightgreen;
+    grid-area: content2;
+}
+
+#content3{
+    background-color: lightcoral;
+    grid-area: content3;
+}
+
+#content4{
+    background-color: lightslategray;
+    grid-area: content4;
+}
+
+#content5{
+    background-color: lightpink;
+    grid-area: content5;
+}
+
+#content6{
+    background-color: lightsteelblue;
+    grid-area: content6;
+}
+
+footer{
+    background-color: lightblue;
+    grid-area: footer;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

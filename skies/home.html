@@ -11,9 +11,30 @@
         <!-- Game screen grid -->
         <container>
             <nav>Navbar</nav>
-            <div id="enemy-resource-bar">Enemy resource bar</div>
-            <div id="game-area">Game area</div>
-            <div id="player-status-bar">Player status bar</div>
+            <div id="game-area">
+                <div id="enemy-resource-bar">
+                    <span><strong><span id="enemy-name">Enemy Name</span></strong></span>
+                    <div class="outer-bar">
+                        <div class="inner-bar enemy-hp-bar"></div>
+                        <span class="inner-bar-text">1000 / 1000</span>
+                    </div>
+                </div>
+                Game Area
+            </div>
+            <div id="player-status-bar">
+                <span>
+                    <div class="outer-bar">
+                        <div class="inner-bar player-hp-bar"></div>
+                        <span class="inner-bar-text">1000 / 1000</span>
+                    </div>
+                </span>
+                <span>
+                    <div class="outer-bar">
+                        <div class="inner-bar player-fp-bar"></div>
+                        <span class="inner-bar-text">30 / 30</span>
+                    </div>
+                </span>
+            </div>
             <div id="content1">Content1</div>
             <div id="content2">Content2</div>
             <div id="content3">Content3</div>

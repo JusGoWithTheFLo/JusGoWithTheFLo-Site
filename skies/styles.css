@@ -1,9 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
 container{
     display: grid;
     height: 100dvh;
     grid-template-columns: repeat(2, 1fr);
     /*grid-template-rows: min-content;*/
-    grid-template-rows: .2fr 3fr .5fr 1fr 1fr 1fr .2fr;
+    grid-template-rows: .3fr 4fr .5fr 1fr 1fr 1fr .2fr;
     grid-template-areas:
         "nav nav"
         "game-area game-area"
@@ -28,7 +34,7 @@ nav{
 #enemy-resource-bar{
     background-color: rgba(255, 0, 0, .4);
     color: white;
-    display: flex;
+    display: flex; /* initial display should be none; and flex during battle */
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -48,7 +54,6 @@ nav{
 }
 
 #player-status-bar > span{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;

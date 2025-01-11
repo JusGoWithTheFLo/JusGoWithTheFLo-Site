@@ -1,0 +1,353 @@
+GAME STRUCTURE
+    STARTING THE GAME
+        -when the game is started, the title screen will be displayed.
+        -tap on 'start' and the menu will appear.
+        -select 'new game' or 'continue.
+        NEW GAME
+            -start the game from the begining.
+            -you may modify the settings in the options menu.
+        CONTINUE 
+            -continue the game from previously saved location.
+
+    RELATIONSHIP BETWEEN EACH MODE
+        -skies and floating islands are the main stage.
+        -the player soars the skies with his/her aerial ship, explores villages and dungeons on foot, and engages in battle.
+        VILLAGES
+            -entire village is displayed like a map.
+            -village buildings and areas have a border that distinguishes them from the background.
+            -player selects building or area to "enter".
+
+            BUILDINGS 
+                -
+            DUNGEONS 
+                -
+        SKIES
+            -entire player world is displayed like a map. traveled areas are revealed, while uncharted areas are hidden.
+            -this is where the player travels aboard the ship.
+            -depending on the size of the ship and the performance of the engine, the area the player can explore widens.
+        BATTLE MODES
+            -while exploring dungeons or traveling aboard the ship, if the player encounters enemis, a battle begins.
+            -there are two types of battles: normal battles and ship battles.
+    TRANSFERRING BETWEEN VILLAGES/DUNGEONS AND SKY
+        FROM THE SKY TO THE VILLAGES/DUNGEONS 
+            -player taps on the island or building, and its name will be displayed.
+            -player will be given the option to 'travel' to the selected location.
+            -if it is an island that the player can land on, they will be transferred to the docking bay within.
+            -along the route, the player may encounter enemies.
+        FROM THE VILLAGES/DUNGEONS TO THE SKY
+    SAVING THE GAME?
+        HOW TO SAVE/LOAD GAME?
+    GAME OVER?
+SKIES (TRAVELING BY SHIP)
+    DISPLAY 
+    MENU SCREEN 
+        MAP 
+        TO BRIDGE
+        SAVE?
+    CONVERSATIONS WITH OTHER SHIPS
+    ENCOUNTERING ENEMIES 
+        -if the player encounters an enemy that dwells in the area, the game enters the Battle Mode.
+        -the battle occurs on the deck of the ship the player is aboard, fighting in the same manner as the normal battles inside the dungeons.
+        -when the player encounters ships belonging to the GRAND ARMADA or opposing pirates, the player will engage in ship battle.
+    DISCOVERIES
+        HOW TO MAKE A DISCOVERY
+        VIEW DISCOVERIES IN THE JOURNAL
+        MAKING DISCOVERIES TO EARN MONEY
+VILLAGES AND DUNGEONS 
+    DISPLAY 
+    ASCENDING/DESCENDING ON LADDERS, POLES, AND STAIRS
+    EXAMINING
+    TALKING TO PEOPLE
+    OBTAINING ITEMS
+    SHOPPING
+        BUY AND SELL WEAPONS/ITEMS/SHIP PARTS 
+        TALK ABOUT VARIOUS THINGS
+        LEAVE
+    TAKING A REST 
+    SAILOR'S GUILD
+        BUY AND SELL DISCOVERY INFORMATION
+            BUY INFO 
+            SELL INFO 
+            WANTED LIST
+        TALK ABOUT VARIOUS THINGS 
+        LEAVE
+    SKYFISH
+        WHAT ARE SKYFISH 
+        PEOPLE INVOLVED WITH SKYFISH 
+        HOW TO CATCH SKYFISH 
+        MYSTERIOUS ANIMAL MARIA IS BREEDING
+        WHEN THE ANIMAL GROWS...
+    SWASHBUCKLER RATING
+    GROWTH OF PET, AND FOOD
+        HOW TO GROW PET 
+        HOW TO FIND FOOD 
+    BASE SYSTEM AND CREW SYSTEM 
+        ABOUT BASE SYSTEM
+        ABOUT CREW SYSTEM 
+            CREW ABILITIES
+                -there are various occupations specific to each crew, and each will support the player with his/her abilities.
+                -for example, if the player has a Gunner aboard, the ship's bombing ability will increase.
+                ??-also, while in a ship battle, the player can select the CREW command to have him/her do his/her work.
+            SCOUTING FOR CREWS
+                -the possible crew members are scattered throughout the world.
+                -but not all will join easily, as some will require special conditions.
+                -whether he/she will join as a crew member is up to the player.
+BATTLE MODES
+    NORMAL BATTLE 
+        NORMAL BATTLE DISPLAY 
+            TURN ORDER 
+                -displays the order in which characters will attack.
+                -order may change depending on conditions (reduced speed, unconscious).
+            CHARACTER 
+                -the color of the circle under the character indicates the current color of weapon equipped.
+            HIT POINTS (HP)
+                -indicates the physical strength of the character.
+                -the values indicate the current/max value.
+                -when the value drops to zero, that character becomes unconscious and will not be able to fight.
+                -he/she will be revived after the battle with HP at one.
+            MAGIC POINTS (MP)
+                -indicates the amount of magic points the character can use.
+                -the values indicate the current/max value.
+                -if the character uses magic, the value decreases by one.
+            CHARACTER STATUS
+                -if there is a temporary change in status (rise/fall in character's parameter, or adverse effects like Poison, etc), icon(s) will be displayed beneath MP bar.
+            SPIRIT POINTS GAUGE (SP)
+                -the value of actions the party can take as a whole.
+                -it will be consumed when magic and Super Moves are used.
+                -it is displayed as current value/max value.
+                -the green gauge indicates the amount the player can spend, and the red indicates the amount the player has already assigned.
+                -after each turn, the amount increases according to the number of characters that can take action.
+                -also, on command selection, select FOCUS to increase this amount.
+                -after each battle, the value returns to the amount at the beginning of the battle.
+        BATTLE COMMANDS
+            -on each turn, player will select each character's action, starting with their party leader.
+            -player can tap on a command (some commands may not be selectable depending on the conditions).
+            -player can tap on the (X) to cancel.
+            -player can also change the color of the character's weapon by tapping on the character.
+            ATTACK
+                -attack with equipped weapon.
+                -when selected, a target will appear over the enemy to attack.
+                -tap on the enemy to select the enemy.
+                -depending on the color (attribute) of the weapon, the damages to the enemy may differ.
+            SPECIAL MOVE 
+                -by spending a certain amount of spirit points (SP), the character can use the super move he/she has learned.
+                -first tap on s-move, then tap on the s-move to use.
+                -player may not select this if the character has not learned any super-moves.
+            FOCUS
+                -increases the amount of spirit points.
+                -the amount depends on the spirit rating of the character using this command.
+            GUARD
+                -guard oneself to reduce damage taken from enemy attacks.
+                -when guarding, the characters status bars are outlined with a color.       color TBD!!!
+                -guarding only lasts for one turn.
+            MAGIC
+                -use magic that the character has learned.
+                -in addtion to a given amount of SP, 1 MP (magic point) is spent for each use.
+                -first tap on magic.
+                -then tap on the desired magic attribute.
+                -then tap on the spell to use.
+                -then tap on the target character to case the spell on.
+            ITEM
+                -use an item.
+                -first tap on item to open menu of usable items.
+                -then tap on the item to use.
+                -then select the target character to use item on.
+            RUN
+                -escape from battle
+                -only the main character (or first character on the turn) can select.
+                -selecting this will not enable player to escape 100% of the time.
+                -against bosses, player cannot escape.
+        SPIRIT SYSTEM
+            -spirit point, or SP, is the value of actions your party can take as a whole, and is displayed as a green gauge at the top of the battle screens.
+            -during normal battles, it will be consumed when using magic or super moves.
+            -during ship batles, it will be consumed on all commands except RUN, GURD, FOCUS, and ITEM.
+            -the stronger the magic or super move, the more SP the action will consume.
+            -player will regain a given amount of SP on every turn, but can gain additional SP with the FOCUS command.
+            -since the value is shared among the party, it is possible to make one of your party gain SP while the others use the magic/super move to consume it.
+        LEARNING SUPER MOVES 
+            -the characters learn new super moves by consuming items called SKYBERRIES.
+            -to learn a new super move, select SUPER MOVE command on character status screen of the status menu.
+            -the order of super moves the characters can learn is fixed.
+            -also, the amount of SKYBERRIES needed depends on each super move.
+        CHANGE IN CHARACTER STATUS 
+            -during the battle, the status of the character, friend or enemy, may be changed in various ways from an effect of magic or special attacks.
+            CHARACTER STATE 
+                -during the battle, if color of the status bars of friends/enemies changes, it indicates that the state of the character has been altered.
+                COLOR1: guarding
+                COLOR2: nullify attack is in effect
+                COLOR3: nullify attack from magic
+                COLOR4: nullify abnormality in status 
+                COLOR MIX: nullify all attack from the enemy
+            ABNORMALITY IN STATUS
+                -when the character, friend, or enemy has abnormality in status due to poison, etc., icon(s) will be displayed below that character's MP bar.
+                POISON: lose HP at the end of turn.
+                CONFUSION: attacks anyone, friend or foe.
+                UNCONSCIOUS: when HP drops to zero.
+                SILENCE: cannot case magic.
+                STONE: cannot fight for given turns.
+                FATIGUE: cannot regain SP.
+                SLEEP: cannot fight until he/she wakes up.
+                WEAK: lower all abilities.
+                STRENGTHEN: raise attack and defense abilities. displayed in RED?
+                QUICKENED: raise quickness.     displayed in BLUE?
+                REGENERATE: regain HP at the end of turn.
+        CHANGING COLOR (ATTRIBUTE) OF WEAPON
+            -there are 6 colors of MOON ROCKS: green, red, purple, blue, yellow, and silver.
+            -each has different attribues.
+            -player can change the color of weapon according to the colors of MOON ROCKS they have.
+            -by changing colors, the attributes change accordingly.
+            -to change color, tap on the character while selecting their action on battle.
+            -the color changes with each tap.
+            ENEMIES' ATTRIBUTES 
+                -the enemies also ahve attributes, and attack by using their attributes.
+                -if you attack with the color attribute that stands against the enemy's you can give greater damage to the enemy.
+        END OF THE BATTLE
+            -when player wins the battle, end of battle screen will be displayed.
+            -the experience points, magic experience points, and gold the characters earned in the battle will be accumulated.
+            -if there are any items dropped by the enemies, they will be displayed.
+            -to exit the end of battle scene, player taps the 'CONTINUE' button.
+            EXPERIENCE POITNS AND INCREASE IN CHARACTER LEVEL
+                -if the character's experience points reach the given amount, the character's level will be raised.
+                -there will be an increase in his/her paramters.
+                -the amount increased varies between the characters.
+                -you can verify the amount of experience points needed to raise the character level in the status screen.
+            MAGIC EXPERIENCE POINTS AND LEARNING MAGIC 
+                -magice experience points are earned for each attribute (color) of the weapon the party used.
+                -when the magic experience poitns of the weapons' attributes reach the given amount, the attribute rank increases.
+                -the character learns a new spell.
+    SHIP BATTLE 
+        -ship battle is the battle the player and friends fight with the ship they are aboard against enemy ships.
+        -apart from the battles that occus as part of fixed events, when you encounter an enemy ship such as one of BLACK BUCCANEERS or GRAND FLEET, player will enter ship battle.
+        SHIP BATTLE DISPLAY
+            NAME OF ENEMY SHIP/HP 
+                -underneath the nam eof the enemy you are battling against, the enemy's HP gauge is displayed.
+                -icon(s) will also be displayed to indicate any change in its status.
+            TURN ORDER 
+                -displays the order in which characters will attack.
+                -order may change depending on conditions (reduced speed, unconscious).
+            SHIP AND CHARACTER AND NAME
+                -indicates which character's turn it is to take action.
+            SHIP HIT POINTS (HP)
+                -indicates the HP of the ship.
+                -the values indicate current/max value.
+                -when value drops to zero, the ship will be sunk, and the game will be over????
+            CHARACTER'S MAGIC POINTS (MP)
+                -indicates the amount of magic points the character can use.
+                -the values indicate the current/max value.
+                -if the character uses magic, the value decreases by one.
+            SHIP STATUS 
+                -if there is a temporary change in status (such as rise/fall in ship's parameter or adverse effects to it), icon(s) will be displayed under MP bar.
+            SPIRIT POINTS GAUGE (SP)
+                -the value of actions the party can take as a whole.
+                -it will be consumed when magic, attack, super cannon, and crew commands are used.
+                -it is displayed as current value/max value.
+                -the green gauge indicates the amount the player can spend, and the red indicates the amount the player has already assigned.
+                -after each turn, the amount increases according to the number of characters that can take action.
+                -also, on command selection, select FOCUS to increase this amount.
+                -after each battle, the value returns to the amount at the beginning of the battle.
+        BATTLE COMMANDS 
+            -on each turn, player will select each character's action, starting with their party leader.
+            -player can tap on a command (some commands may not be selectable depending on the conditions).
+            -player can tap on the (X) to cancel.
+            ATTACK 
+                -fire cannons.
+                -after tapping 'attack', tap on the cannon the ship is equipped with.
+                -there are three types of weapons, and their features vary.
+                -unlike in normal battle, a certain amount of SP is needed to attack.
+            S-CANNON 
+                -some ships may be equipped with special cannon.
+                -you can only use these in areas indicated with special icon. ?????
+                -a great amount of SP will be consumed, but the cannon will fire a shot with enormous power.
+                -by using this, the flow of the battle may change.
+                -the icon differs according to the type of equipped s-cannon. ?????
+            FOCUS 
+                -increases the amount of spirit points.
+                -the amount depends on the spirit rating of the character using this command.
+            GUARD 
+                -take an evasive maneuver to make the ship hard to hit during the selected period of turn.
+                -it is most effective if you use it when the degree of danger is high. ?????
+            MAGIC 
+                -use magic.
+                -1 MP and the necessary amount of SP are spent with each use. 
+                -the method of selection is the same as in normal battle. 
+                -the magically-charged cannonballs the character fires against the enemy are treated the same as normal cannon fire, as player may at times miss.
+                -the player will need to obtain the MAGIC CANNON in order to be able to fire magic.
+            ITEMS 
+                -use an item.
+                -the method of selection is the same as 'item' command in normal battle.
+                -usable items are limited to such that include ship items (repair kit, etc.).
+            CREW 
+                -when the player owns his/her own ship, he/she will be able to give orders to the crew aboard their ship.
+                -first tap on crew.
+                -then tap on the desired crew member.
+                -the amount of SP used varies with different crew members.
+            RUN
+                 -escape from battle
+                -only the main character (or first character on the turn) can select.
+                -selecting this will not enable player to escape 100% of the time.
+                -against bosses, player cannot escape.
+        BATTLE GRID
+            -displays the order in which characters and enemies will attack.
+            -order may change depending on conditions (reduced speed, sunken).
+            -during each turn of ship battle, each member of the players party can take a single action.
+            CHARACTERS
+                -the characters and the order in which that can take actions.
+                -look at the Degree of Change/Danger to decide which action to take.
+            DEGREE OF CHANGE/DANGER 
+                -indicates the chance for player to attack, or danger of being attacked.
+                -upon selecting actions, the player should verify this to bring the battle to their advantage.
+                HOW TO SEE DEGREE OF CHANGE/DANGER 
+                    -the degree of danger in each round is indicated with colors green, yellow, and red displayed behind characters in the turn order.
+                    -in turns with RED, being the most dangerous, the player can predict fierce bombardments.
+                    -the player can also verify rounds where they have a better chance to attack, as well as for the rounds the player can fire s-cannons.
+                    -GREEN indicates the rounds where the player attack stands a greater chance of hitting.
+                    -BLUE indicates the round(s) where the player can fire S-Cannon.
+                ACTION ROUNDS FOR ATTACK
+                    -there are three types of artilleries the player can use to attack by ship, and their features are different.
+                    -with proper assignments, player can concentrate fire when the chance arrives.
+                    -with main and second cannons, if the player's position against the enemy ship is not correct, the player may not be able to have the enemy in the corret angle to fire, losing their shot in this case.
+                    -also, depending on the accuracy rating of the cannon, player may miss, even if the enemy is in the angle of their fire.
+                    MAIN CANNON
+                        -fires and hits on same round.
+                        -has power but consumes more SP.
+                    SECONDARY CANNON 
+                        -with additional consumption of SP, player can fire in successive rounds.
+                    TORPEDO
+                        -player may designate the turn to hit.
+            BRANCHING OF ROUTE WITH MESSAGE EVENT 
+                -during the course of the ship battle, there are times when the player must choose a strategic decision from a menu of choices.
+                -tap to select the strategy.
+                -depending on the players choice choice, the flow of battle changes, and the timing of chances and dangers will also change.
+                -the flow also changes according to how the player acts in their turn.
+                -when the gauges for the next turn are spinning, it indicates that there may be a branch after the next turn.
+                -to bring the battle to the players advantage, the player must act with caution.
+    WANTED BATLE 
+        -there are many BLACK PIRATES with bounties on them.
+        -player finds the BLACK PIRATE on the WANTED LIST issued by the SAILORS' GUILD, defeats them, and collects the reward
+        FLOW OF WANTED BATTLE 
+            VERIFY WANTED LIST AT SAILORS' GUILD 
+                -first go to the sailor's guild and verify the wanted list.
+                -player can get such information as the name of the wanted BLACK PIRATE, the whereabouts, and the amount of bounty post.
+            FINDING THE BLACK PIRATE 
+                -(NOT REVEALED TO PLAYER: BLACK PIRATES can be found while traveling the skies aboard a ship).
+                -based on the information gained, player finds the wanted BLACK PIRATE.
+                -when found, tap on on the pirate to talk to them.
+                -some of them may hold grudges against the player and chase after him/her.
+                -some appear as a fixed event and will force you into battle as soon as they are found.
+            BATTLE AGAINST THE BLACK PIRATES 
+                -after you find the BLACK PIRATE, a battle begins.
+                -the process of battle is exactly the same as any other normal or ship battle.
+                -being on the wanted list, they are formidable enemies.
+            COLLECT BOUNTIES AT THE SAILORS' GUILD 
+                -when the player defeats the wanted BLACK PIRATE, the player goes back to the SAILORS' GUILD.
+                -then, player should talk to the Guildmaster, and the bounty will be paid.
+                -the amount of bounty varies according to the BLACK PIRATE the player defeated.
+        VERIFYING WANTED LIST IN THE STATUS SCREEN 
+            -once the player gains information from the Guild, they can verify it in WANTED LIST in the STATUS SCREEN.
+            -the information the player can view is exactly the same as the information they can verify at the Guild.
+        THE ENEMIES BECOME STRONGER TOO 
+            -the wanted pirates are scattered all over the world, but the don't just sit awaiting to be hunted down.
+            -like the player, they grow to be stronger.
+            
+
+

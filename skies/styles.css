@@ -9,14 +9,12 @@ container{
     height: 100dvh;
     grid-template-columns: repeat(2, 1fr);
     /*grid-template-rows: min-content;*/
-    grid-template-rows: .3fr 4fr .5fr 1fr 1fr 1fr .2fr;
+    grid-template-rows: .3fr 4fr .5fr 3fr .2fr;
     grid-template-areas:
         "nav nav"
         "game-area game-area"
         "player-status-bar player-status-bar"
-        "content1 content2"
-        "content3 content4"
-        "content5 content6"
+        "battle-actions battle-actions"
         "footer footer";
 }
 
@@ -25,25 +23,59 @@ nav{
     grid-area: nav;
 }
 
+/* GAME AREA CODE */
 #game-area{
     background-color: green;
     grid-area: game-area;
     position: relative;
 }
 
-#enemy-resource-bar{
+#game-area-top{
+    background-color: rgba(255, 0, 0, .4);
+    color: white;
+    display: flex; /* initial display should be none; and flex during battle */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+#turn-gauge{
+    background-color: rgba(30, 0, 255, 0.4);
+    color: white;
+    display: flex; /* initial display should be none; and flex during battle */
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.turn-icon{
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    margin: -2px;
+    width: 30px;
+}
+
+#boss-resource-bar{
     background-color: rgba(255, 0, 0, .4);
     color: white;
     display: flex; /* initial display should be none; and flex during battle */
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
     left: 0;
-    top: 0;
+    top: 30px;
     width: 100%;
 }
 
+/* PLAYER STATUS BAR CODE */
 #player-status-bar{
     background-color: blue;
     display: flex;
@@ -60,34 +92,59 @@ nav{
     width: 100%;
 }
 
+/* BATTLE ACTION AREA CODE */
+#battle-actions{
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: battle-actions;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.battle-action{
+    align-items: center;
+    display: flex;
+    flex-basis: 200;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 #content1{
     background-color: lightblue;
-    grid-area: content1;
 }
 
 #content2{
     background-color: lightgreen;
-    grid-area: content2;
 }
 
 #content3{
     background-color: lightcoral;
-    grid-area: content3;
 }
 
 #content4{
     background-color: lightslategray;
-    grid-area: content4;
 }
 
 #content5{
     background-color: lightpink;
-    grid-area: content5;
 }
 
 #content6{
     background-color: lightsteelblue;
-    grid-area: content6;
+}
+
+#exit{
+    align-self: flex-end;
+    background-color: rgba(175, 37, 37, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
 }
 
 footer{
@@ -97,6 +154,9 @@ footer{
 
 
 
+
+
+/* WEB RESPONSIVE CODE */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -126,7 +186,7 @@ footer{
         z-index: 1;
     }
 
-    .enemy-hp-bar{
+    .boss-hp-bar{
         background-color: rgba(255, 0, 0, 1);
         width: 100%; /* this will dynamically change */
     }
@@ -136,7 +196,7 @@ footer{
         width: 100%; /* this will dynamically change */
     }
 
-    .player-fp-bar{
+    .player-sp-bar{
         background-color: rgb(60, 60, 255);
         width: 100%; /* this will dynamically change */
     }
